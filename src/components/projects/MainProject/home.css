@@ -1,0 +1,8 @@
+.main-home{
+  height: 100vh;
+  background-image: url("./images/plains.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(18, 202, 235);
+}

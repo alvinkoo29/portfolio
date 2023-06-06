@@ -1,0 +1,46 @@
+.contact{
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  padding-left: 200px;
+  animation: showCard 1s linear;
+}
+
+@keyframes showCard{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.contact-title{
+  position: absolute;
+  margin-left: 20px;
+  width: 500px;
+  height: 800px;
+}
+
+.contact-title h1{
+  text-align: left;
+  font-size: 5em;
+  margin: 50px 0;
+  position:absolute;
+  top: 100px;
+}
+
+.contact-title a{
+  color: white;
+  text-decoration: none;
+  margin: 0 0 20px;
+  width: 400px;
+  font-size: 1.5em;
+  position:absolute;
+  bottom: 400px;
+}
+
+.contact-title a:hover{
+  color:rgba(255, 255, 255, 0.596);
+}

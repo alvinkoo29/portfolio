@@ -1,0 +1,12 @@
+.main-dashboard{
+  width: 100vw;
+  height: 80vh;
+  position: relative;
+  top: 100px;
+}
+
+.main-content{
+  width: 90vw;
+}
+
+

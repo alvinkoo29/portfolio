@@ -1,0 +1,32 @@
+.main-sidebar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: fixed;
+  height: 90vh;
+  width: 100px;
+  margin-left: 30px;
+}
+
+.bar{
+  display: block;
+  width: 70px;
+  height: 10px;
+  background: rgba(2, 109, 180, 0.5);
+  margin: 30px 0px;
+  border: none;
+}
+
+.bar-active{
+  display: block;
+  width: 100px;
+  height: 10px;
+  background: rgba(2, 109, 180, 0.5);
+  margin: 30px 0px;
+  border: none;
+}
+
+.bar:hover{
+  cursor: pointer;
+}
+

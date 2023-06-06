@@ -1,0 +1,55 @@
+.work{
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  padding-left: 200px;
+  animation: showCard 1s linear;
+}
+
+@keyframes showCard{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.work-title{
+  position: absolute;
+  margin-left: 20px;
+  width: 80%;
+  height: 800px;
+}
+
+.work-title-left,
+.work-title-right{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 45%;
+  height: 100%;
+}
+
+.work-title-left p{
+  padding:-10px 0;
+}
+
+.work-title-right p{
+  padding:50px 0;
+}
+
+.work-title h1{
+  text-align: left;
+  font-size: 5em;
+  margin: 50px 0;
+  position:absolute;
+  top: 100px;
+}
+
+.work-title p{
+  width: 400px;
+  font-size: 1.5em;
+  position:absolute;
+  top: 320px;
+}

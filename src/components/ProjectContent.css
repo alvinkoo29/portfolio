@@ -1,0 +1,22 @@
+.projects-list{
+  background-color: #282c34;;
+  width: 10em;
+  height: 5em;
+  padding: 1px;
+  position: absolute;
+  right: -20px;
+  top: 20px;
+}
+
+.projects-links{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  font-size: 1em;
+}
+
+.projects-links:hover{
+  color:rgb(19, 114, 223);
+  font-size: 1.1em;
+}

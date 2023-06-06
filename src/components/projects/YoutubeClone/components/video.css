@@ -1,0 +1,110 @@
+.top-container{
+  position: relative;
+}
+
+.thumbnail{
+  width: 100%;
+}
+
+.video-time{
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
+  padding: 2px 4px;
+  border-radius: 3px;
+}
+
+.bottom-container{
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 5px;
+  margin-top: 8px;
+}
+
+.bottom-container a:link,
+.bottom-container a:visited{
+  text-decoration: none;
+  color: black;
+}
+
+.profile-pic{
+  width: 36px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.channel-summary{
+  display: flexbox;
+  position: relative;
+  width: 250px;
+  margin-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgb(199, 191, 191);
+  background-color: white;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.channel-pic:hover .channel-summary{
+  opacity: 1;
+}
+
+.channel-summary .profile-pic{
+  width: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline-block;
+  margin: 7px;
+}
+
+.channel-summary .video-author,
+.channel-summary .video-subscribers{
+  font-size: 18px;
+  display: inline-block;
+  position: absolute;
+  left: 65px;
+}
+
+.channel-summary .video-author{
+  color: black;
+  font-weight: 700;
+  top: 12px;
+}
+
+.channel-summary .video-subscribers{
+  font-size: 14px;
+  top: 38px;
+  color: gray;
+}
+
+.video-title{
+  margin-top: 0;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+
+.video-author, 
+.video-stats{
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-block;
+  color: rgb(95, 95, 95);
+}
+
+.video-author{
+  margin-bottom: 4px;
+  transition: color 0.2s;
+}
+
+.video-author:hover{
+  color:black;
+}
+
+
+

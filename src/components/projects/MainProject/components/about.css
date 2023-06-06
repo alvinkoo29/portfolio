@@ -1,0 +1,39 @@
+.about{
+  width: 100%;
+  height: 100%;
+  color: white;
+  position: absolute;
+  padding-left: 200px;
+  animation: showCard 1s linear;
+}
+
+@keyframes showCard{
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.about-title{
+  position: absolute;
+  margin-left: 20px;
+  width: 500px;
+  height: 800px;
+}
+
+.about-title h1{
+  text-align: left;
+  font-size: 5em;
+  margin: 50px 0;
+  position:absolute;
+  top: 100px;
+}
+
+.about-title p{
+  position:relative;
+  top: 300px;
+  width: 400px;
+  font-size: 1.5em;
+}
