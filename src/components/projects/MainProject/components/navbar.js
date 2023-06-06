@@ -14,10 +14,10 @@ function Navbar() {
         Alvin Koo
       </div>
       <div className= "menu">
-        <a href= "https://www.linkedin.com/in/alvin-koo-750072195/" target = "_blank">
+        <a href= "https://www.linkedin.com/in/alvin-koo-750072195/" rel = "noreferrer" target = "_blank">
           <img className = "icon" src = {linkedin} alt= "linkedin"/>
         </a>
-        <a href= "https://github.com/alvinkoo29" target = "_blank">
+        <a href= "https://github.com/alvinkoo29" rel = "noreferrer" target = "_blank">
           <img className = "icon" src = {github} alt= "github"/>
         </a>
         <button className = "button" onClick={() => setclicked(!clicked)}>
