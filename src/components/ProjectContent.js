@@ -5,7 +5,7 @@ import './ProjectContent.css';
 function ProjectContent() {
   return (
     <div className = "projects-list">
-      <Link to = '/' className = "projects-links">
+      <Link to = '/portfolio' className = "projects-links">
         Introduction
       </Link>
       <Link to = '/youtube-clone/home' className = "projects-links">
