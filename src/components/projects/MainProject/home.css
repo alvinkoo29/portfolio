@@ -1,8 +1,103 @@
 .main-home{
-  height: 100vh;
-  background-image: url("./images/plains.jpg");
+  height: 290vh;
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+  position: static;
+}
+
+.main-home .content{
+  padding: 2em 0 2em 0;
+  height: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: 30px;
+  padding-top: 11vh;
+}
+
+/*introduction section */
+
+.main-home .introduction{
+  height: 89vh; /* 100vh - 11vh (padding) */
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-home .introduction .profile-picture{
+  height: 20em;
+  border-radius: 50%;
+}
+
+.main-home .introduction .title{
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 5ch;
+}
+
+.main-home .introduction .description{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.main-home .introduction .description-text{
+  font-family: "Raleway";
+  font-size: 4ch;
+  width: 40%;
+  height: 100%;
+  padding-top: 60px;
+}
+
+.main-home .introduction .decoration{
+  width: 667px;
+  align-self: center;
+  margin-top: -80px;
+}
+
+
+/*project section */
+
+.main-home-projects{
+  height: 89vh;
+  background-image: url("./images/mountain.jpg"); 
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgb(18, 202, 235);
+  display: grid;
+}
+
+.column1{
+  
+}
+
+
+.project1{
+  background-image: url("./images/travel-screenshot.PNG"); 
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 300px;
+}
+
+.project2{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  background-image: url("./images/youtube-screenshot.PNG"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 30vw;
+  height: 30vh;
+}
+
+
+/*skills and about section */
+
+.main-home .about{
+  height: 89vh;
+  background-color: greenyellow;
 }

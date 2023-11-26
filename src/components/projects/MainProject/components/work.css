@@ -1,9 +1,6 @@
 .work{
-  width: 100%;
-  height: 100%;
   color: white;
-  position: absolute;
-  padding-left: 200px;
+  position: relative;
   animation: showCard 1s linear;
 }
 
@@ -16,8 +13,10 @@
   }
 }
 
+
+/*
 .work-title{
-  position: absolute;
+  position: relative;
   margin-left: 20px;
   width: 80%;
   height: 800px;
@@ -43,13 +42,14 @@
   text-align: left;
   font-size: 5em;
   margin: 50px 0;
-  position:absolute;
+  position:relative;
   top: 100px;
 }
 
 .work-title p{
   width: 400px;
   font-size: 1.5em;
-  position:absolute;
+  position:relative;
   top: 320px;
 }
+*/

@@ -8,7 +8,7 @@ function ProjectButton() {
   const toggleList = () => setList(!list);
 
   return (
-    <div className = "projects">
+    <div className = "projects-container">
       {list? <ProjectContent/> : null}
       <button className = "projects-button" onClick={toggleList}>
         Projects

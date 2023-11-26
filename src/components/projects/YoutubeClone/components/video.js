@@ -5,17 +5,17 @@ function Video(props) {
     <div className = "video-preview">
       <div className = "top-container">
         <a href= {props.videoLink}>
-          <img className = "thumbnail" src={props.thumbnail} alt=""/>
+          <img className = "thumbnail" src={props.thumbnail} alt="thumbnail"/>
           <div className = "video-time">{props.videoTime}</div>
         </a>
       </div>
       <div className = "bottom-container">
         <div className = "channel-pic">
           <a href= {props.channelLink}>
-            <img  className = "profile-pic" src={props.channelPic} alt=""/>
+            <img  className = "profile-pic" src={props.channelPic} alt="profile picture"/>
           </a>
           <div className = "channel-summary">
-            <img  className = "profile-pic" src={props.channelPic} alt=" "/>
+            <img  className = "profile-pic" src={props.channelPic} alt="profile picture"/>
             <p className ="channel-author">{props.channelAuthor}</p>
             <p className = "video-subscribers">{props.videoSubscribers}</p>
           </div>
